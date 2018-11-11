@@ -12,6 +12,10 @@ html {
 .nav-link:hover {
   background: #242424;
   color: #fff;
+  -moz-transition: all .2s ease-in-out .2s;
+	-webkit-transition: all .2s ease-in-out .2s;
+	-ms-transition: all .2s ease-in-out .2s;
+	transition: all .2s ease-in-out .2s;
 }
 .portfolio {
   color: #b3b3b3;
